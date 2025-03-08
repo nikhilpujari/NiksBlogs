@@ -51,24 +51,27 @@ users.forEach(user => user.score += 10);
 // Give returning users a 10-point bonus to encourage platform loyalty
 users.forEach(user => user.score += 10);
 ```
+## 4. Master Naming Conventions in JavaScript and Web Development
 
-## 4. Optimize for Readability First
+Senior developers understand the importance of consistent naming conventions:
 
-Write code for humans first, computers second.
+### CamelCase vs PascalCase: Know When to Use Each
 
-**Instead of this:**
-```javascript
-function p(d,t) {return d.filter(i=>i.t===t).map(i=>i.v).reduce((a,b)=>a+b,0);}
-```
+**CamelCase** (first letter lowercase, subsequent words capitalized)
+- Use for variables: `let userName = "JohnDoe";`
+- Use for functions: `function fetchData() { ... }`
+- Use for object properties: `const userProfile = { firstName: "John" };`
 
-**Do this:**
-```javascript
-function calculateTotalPriceByType(products, productType) {
-  const filteredProducts = products.filter(product => product.type === productType);
-  const prices = filteredProducts.map(product => product.price);
-  return prices.reduce((total, price) => total + price, 0);
-}
-```
+**PascalCase** (all words start with capital letters)
+- Use for classes: `class UserProfile { ... }`
+- Use for React components: `const NavbarComponent = () => { ... }`
+- Use for constructors: `function CreateUser() { ... }`
+
+**Kebab-case** (lowercase with hyphens)
+- Use for file names: `user-profile.css`
+- Use for folder structures: `/components/`
+- Best for HTML files and URLs: `about-us.html`
+
 
 ## 5. Be Consistent
 
