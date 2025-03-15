@@ -4,7 +4,7 @@ Welcome to my Niks Blog! This is a collection of articles sharing practical know
 
 ## About This Blog
 
-Every Friday, I publish a new article exploring development practices, coding techniques, and professional growth strategies. My goal is to share actionable knowledge that helps developers level up their skills and advance their careers.
+Every Saturday, I publish a new article exploring development practices, coding techniques, and professional growth strategies. My goal is to share actionable knowledge that helps developers level up their skills and advance their careers.
 
 
 ## Topics Covered
